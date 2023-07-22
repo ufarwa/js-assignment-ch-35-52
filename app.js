@@ -499,3 +499,62 @@
 //   document.write("You will have ", num100s + " hundred notes " + num50s +" fifty notes "+ num10s + " ten notes") ;
  
   
+// =======================35 to 52=========================
+
+// =======================Q1=========================
+// Show an alert box on click on a link.
+// function showAlertUsingOnClick(){
+//     alert("Hellow")
+// }
+
+// =======================Q2=========================
+// Display some Mobile images in browser. On click on an
+// image Show the message in alert to user.
+
+// function showAlertUsingOnClick(){
+//     alert("Thanks for purchasing phone from us")
+// }
+
+
+//  =======================Q3=========================
+// Display 10 student records in table and each row should contain a delete
+// button. If you click on a button to delete a record, entire row should be
+// deleted.
+
+    //   function deleteRow(index) {
+
+    //     var table = document.getElementById("studentTable");
+    //     table.deleteRow(index ); 
+    //   }
+      
+ 
+// =======================Q4=========================
+// Display an image in browser. Change the picture on mouseover and set the
+// first picture on mouseout.
+      
+// solution is in html file
+
+// =======================Q5=========================
+// Show a counter in browser. Counter should increase on click on increase
+// button and decrease on click on decrease button. And show updated counter
+// value in browser.
+
+
+// let countElement = document.getElementById("count");
+// let counter = 0;
+// function updateCounter() {
+//   countElement.textContent = counter;
+// }
+// function increaseCounter() {
+//   counter++;
+//   updateCounter();
+// }
+// function decreaseCounter() {
+//   counter--;
+//   updateCounter();
+// }
+// document.getElementById("increaseBtn").addEventListener("click", increaseCounter);
+// document.getElementById("decreaseBtn").addEventListener("click", decreaseCounter);
+
+
+
