@@ -558,3 +558,91 @@
 
 
 
+// =======================35 to 52=========================
+
+// =======================Q1=========================
+// Create a signup form and display form data in your web
+// page on submission.
+
+// function submit(){
+// let names = document.getElementById("username").value
+// let email = document.getElementById("email").value
+// let password = document.getElementById("password").value
+// document.write("Entered Name: " +names + "<br>" +"Entered Email: "+ email + "<br>" +"Entered Pasword: "+ password)
+// }
+
+// =======================Q2=========================
+// Suppose in your webpage there is content area in which
+// you have entered your item details, but user can only see
+// some details on first look. When user clicks on “Read
+// more” button, full detail of that particular item will be
+// displayed.
+//  function readMore(){
+//    let paragraph = document.getElementById("para")
+// paragraph.innerHTML="<p>You can legally put JavaScript code almost anywhere in the HTML file—in the head section, at the beginning of the body section, somewhere in the middle of the body section, or at the end of the body section. You could, if you wanted to be perverse, sprinkle different Javascript functions all over your HTMLfile in different places. The browser would sort it all out.</p>"
+//  }
+
+// =======================Q3=========================
+// In previous assignment you have created a tabular data
+// using javascript. Let’s modify that. Create a form which
+// takes student’s details and show each student detail in
+// table. Each row of table must contain a delete button and
+// an edit button. On click on delete button entire row should
+// be deleted. On click on edit button, a hidden form will                                          // appear with the values of that row.
+
+
+// function addStudent() {
+//     // Get input values
+//     const name = document.getElementById('name').value;
+//     const age = document.getElementById('age').value;
+//     const grade = document.getElementById('grade').value;
+
+//     // Clear input fields
+//     document.getElementById('name').value = '';
+//     document.getElementById('age').value = '';
+//     document.getElementById('grade').value = '';
+
+//     // Create a new row for the table
+//     const tableBody = document.getElementById('tableBody');
+//     const newRow = document.createElement('tr');
+
+//     // Create table cells and add data
+//     const nameCell = document.createElement('td');
+//     nameCell.textContent = name;
+//     newRow.appendChild(nameCell);
+
+//     const ageCell = document.createElement('td');
+//     ageCell.textContent = age;
+//     newRow.appendChild(ageCell);
+
+//     const gradeCell = document.createElement('td');
+//     gradeCell.textContent = grade;
+//     newRow.appendChild(gradeCell);
+
+//     const actionsCell = document.createElement('td');
+
+//     // Create delete button
+//     const deleteButton = document.createElement('button');
+//     deleteButton.textContent = 'Delete';
+//     deleteButton.onclick = function () {
+//       tableBody.removeChild(newRow); // Remove the entire row
+//     };
+//     actionsCell.appendChild(deleteButton);
+
+//     // Create edit button (hidden for now)
+//     const editButton = document.createElement('button');
+//     editButton.textContent = 'Edit';
+//     editButton.style.display = 'none'; // Hidden by default
+
+//     // Attach event listener to edit button
+//     editButton.onclick = function () {
+//       // Show the hidden form for editing (you can implement the edit form here)
+//       alert('Implement the edit form functionality here');
+//     };
+//     actionsCell.appendChild(editButton);
+
+//     newRow.appendChild(actionsCell);
+
+//     // Add the new row to the table
+//     tableBody.appendChild(newRow);
+//   }
